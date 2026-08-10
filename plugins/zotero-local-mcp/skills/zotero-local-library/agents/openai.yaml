@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zotero Local Library"
+  short_description: "Import papers and attach PDFs in local Zotero."
+  default_prompt: "Add these papers to Zotero with their official PDFs."
