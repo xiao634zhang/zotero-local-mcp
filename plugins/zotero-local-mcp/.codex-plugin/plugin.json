@@ -1,0 +1,29 @@
+{
+  "name": "zotero-local-mcp",
+  "version": "0.1.0",
+  "description": "Import papers and official PDFs into a local Zotero Desktop library with duplicate checks.",
+  "author": {
+    "name": "xiao634zhang",
+    "url": "https://github.com/xiao634zhang"
+  },
+  "homepage": "https://github.com/xiao634zhang/zotero-local-mcp",
+  "repository": "https://github.com/xiao634zhang/zotero-local-mcp",
+  "license": "MIT",
+  "keywords": ["zotero", "mcp", "citations", "pdf", "research"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Zotero Local MCP",
+    "shortDescription": "Import papers with PDFs into local Zotero.",
+    "longDescription": "Search a local Zotero Desktop library, prevent duplicate imports, and create complete paper records with official PDFs through Zotero's Local API and Connector.",
+    "developerName": "xiao634zhang",
+    "category": "Productivity",
+    "capabilities": ["Local library search", "Duplicate checks", "PDF imports"],
+    "websiteURL": "https://github.com/xiao634zhang/zotero-local-mcp",
+    "defaultPrompt": [
+      "Add these papers to Zotero with their official PDFs.",
+      "Import this paper and its official PDF into Zotero.",
+      "Check whether these papers already exist in Zotero."
+    ]
+  }
+}
